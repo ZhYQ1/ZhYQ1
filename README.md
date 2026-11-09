@@ -12,4 +12,4 @@
 - ⚡ Fun fact: ...
 -->
 
-![snake](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake-dark.svg#gh-dark-mode-only)
+![snake](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/github-snake-dark.svg#gh-dark-mode-only)
