@@ -15,5 +15,14 @@
 
 
 ---
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/pacman-contribution-graph-light.svg" />
+  <img alt="Pacman Contribution Graph"
+    src="https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/pacman-contribution-graph-light.svg" />
+</picture>
+
 
 ![snake](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/github-snake-dark.svg#gh-dark-mode-only)
