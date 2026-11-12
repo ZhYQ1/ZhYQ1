@@ -10,6 +10,8 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+![gravity](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/gravity.svg)
 -->
 
 
@@ -23,7 +25,5 @@
   <img alt="Pacman Contribution Graph"
     src="https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/pacman-contribution-graph-light.svg" />
 </picture>
-
-![gravity](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/gravity.svg)
 
 ![snake](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/github-snake-dark.svg#gh-dark-mode-only)
