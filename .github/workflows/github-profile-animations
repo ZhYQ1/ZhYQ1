@@ -1,19 +1,18 @@
 name: Generate Profile Animations
-
 on:
   schedule:
-    - cron: '0 0 * * *'      # 每天零点更新
+    - cron: '0 0 * * *'      # 每天零点（UTC）更新
   workflow_dispatch:
   push:
     branches: [main]
 
-permissions:
-  contents: write
-
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     steps:
       - uses: actions/checkout@v4
 
@@ -21,23 +20,19 @@ jobs:
       - name: Generate pacman graph
         uses: DuyetBKU/viz-pacman-github-profile@main
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ZhYQ1
           github_token: ${{ secrets.GITHUB_TOKEN }}
           theme: react-dark
           music: 'false'
-
-      # pacman 输出在 dist/ 下
 
       # ---- 动画 2：Gravity ----
       - name: Generate gravity svg
         uses: flycran/github-gravity@v1
         with:
           username: ZhYQ1
-          text: GitHub Gravity
+          text: Hello GitHub     # 可改成你想要的字，比如 ZhYQ1
           output-path: dist/gravity.svg
           css: true
-
-      # gravity 也输出到 dist/，和 pacman 共用目录
 
       # ---- 统一推送 ----
       - name: Push all to output branch
@@ -46,4 +41,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          keep_files: true
+          keep_files: true      # 保留已有文件，防止互删
