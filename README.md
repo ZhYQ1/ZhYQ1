@@ -12,4 +12,13 @@
 - ⚡ Fun fact: ...
 -->
 
+
+
+---
+
+## GitHub Actions / Community Actions
+
+- 🌍 [github-gravity](https://github.com/marketplace/actions/github-gravity) — 一个 GitHub Marketplace 上的 Action，可用于将仓库/账号相关信息以更易读的方式展示出来。
+- 📦 [pacman-profile-github](https://github.com/marketplace/actions/pacman-profile-github) — 一个 GitHub Marketplace 上的 Action，可用于将 Pacman/Arch Linux 相关配置或个人资料信息以 GitHub 友好的方式展示。
+
 ![snake](https://raw.githubusercontent.com/ZhYQ1/ZhYQ1/output/github-snake-dark.svg#gh-dark-mode-only)
